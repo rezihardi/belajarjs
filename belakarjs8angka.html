@@ -8,7 +8,7 @@
       <h1>input hanya angka</h1>
       <h3>by :Rezi</h3>
 
-      <input type="text" onkeypress="return hanyaAngka(event)"/>
+      <input type="text" maxlength="4" onkeypress="return hanyaAngka(event)"/>
       <script>
         function hanyaAngka(evt) {
       var charCode = (evt.which) ? evt.which : event.keyCode
